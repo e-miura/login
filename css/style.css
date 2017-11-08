@@ -1,0 +1,101 @@
+/* ログイン画面 */
+.login-wrapper {
+    max-width: 480px;
+    margin: 40px auto;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 4px;
+}
+
+.form-login {
+	padding: 15px 15px 30px;
+}
+
+.login-header {
+	background-color: #555;
+    color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+.form-login-header {
+	margin-bottom: 20px;
+}
+
+.login-header p {
+	font-size: 25px;
+	margin: auto;
+}
+
+/* 管理メニュー */
+.contents-list {
+	font-size: 22px;
+}
+
+.contents-list li{
+    list-style: none;
+}
+
+.contents-list .contents-title{
+    font-size: 22px;
+}
+
+.contents {
+	margin-bottom: 20px
+}
+
+.contents-title {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #555;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contents-title p {
+	margin: 0;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-left p {
+    font-size: 30px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.header-right {
+    float: right;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* データ一覧ページ */
+.list-title {
+    margin-bottom: 15px;
+}
+
+.list-contents table{
+    margin-bottom: 10px;
+}
+
+.list-contents thead{
+    color: #fff;
+    background-color: #555;
+}
+
+.list-paginate {
+    text-align: center;
+}
+
+.list-paginate > .pagination{
+    margin: 10px 0;
+}

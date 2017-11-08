@@ -1,0 +1,6 @@
+<Files ~ "\.(pdf)$">
+deny from all
+</Files>
+
+ErrorDocument 403 http://localhost:8080/login/error/403.html
+ErrorDocument 404 http://localhost:8080/login/error/404.html
